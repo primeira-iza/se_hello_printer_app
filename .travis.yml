@@ -1,5 +1,5 @@
 language: python
-instll:
+install:
   - make deps
 script:
   - make test
