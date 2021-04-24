@@ -7,6 +7,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   ```
   # tworzymy hermetyczne środowisko dla bibliotek aplikacji:
+  # upewnij sie, ze we wlasciwym katalogu(projekcie)
   $ python3 -m venv .venv
 
   # aktywowanie hermetycznego środowiska
@@ -47,7 +48,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
   ...
 
-  # aktywacja 
+  # aktywacja
   $ source .venv/bin/activate
   ```
 
