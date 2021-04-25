@@ -6,11 +6,15 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 - W projekcie wykorzystamy virtual environment, dla utworzenia hermetycznego środowisko dla aplikacji:
 
   ```
+  ## upewniamy sie czy mamy polskie litery
+
   # tworzymy hermetyczne środowisko dla bibliotek aplikacji:
   # upewnij sie, ze we wlasciwym katalogu(projekcie)
+  ## to srodowisko tworzymy raz, cokolwiek instalujemy w nim - jest zachowane
   $ python3 -m venv .venv
 
-  # aktywowanie hermetycznego środowiska
+  # !!!!! aktywowanie hermetycznego środowiska !!!!!
+  ## source nadpisuje zmienne srodowiskowe
   $ source .venv/bin/activate
   $ pip install -r requirements.txt
   $ pip install -r test_requirements.txt
