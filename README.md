@@ -13,6 +13,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ## to srodowisko tworzymy raz, cokolwiek instalujemy w nim - jest zachowane
   $ python3 -m venv .venv
 
+  # za pomocą Makefile
+  $ make deps
+
   # !!!!! aktywowanie hermetycznego środowiska !!!!!
   ## source nadpisuje zmienne srodowiskowe
   $ source .venv/bin/activate
@@ -28,6 +31,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 - Uruchamianie applikacji:
 
   ```
+  # w trybie deweloperskim
+  $ make run
+
   # jako zwykły program
   $ python main.py
 
@@ -40,6 +46,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
   $ make test
 
+  # bez Makefile
   #albo
   $ PYTHONPATH=. py.test
   $ PYTHONPATH=. py.test --verbose -s
