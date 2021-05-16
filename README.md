@@ -72,6 +72,17 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   # miejsce na twoje notatki
   ```
 
+  - Deployment do Heroku z maszyny dev
+    ```
+    # Załóż konto na heroku.com
+    # Aktywuj wirtualne środowisko.
+    # Dodaj gunicorn do twojego pliku requirements.txt:
+    $ echo 'gunicorn' >> requirements.txt
+    $ pip install -r requirements.txt
+    $ cat requirements.txt
+    # ...
+    ```
+
 - Deployment do Heroku z TravisCI
   ```
   # miejsce na twoje notatki
