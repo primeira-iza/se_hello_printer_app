@@ -99,10 +99,14 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ yum install -y docker-ce
   $ systemctl start docker
   ```
-# Dodanie Badge z TraviCI
+## Deployment do Heroku z TravisCI
+
+## Dodanie monitoringu Statuscake
+
+## Dodanie Badge z TraviCI
 
 [![Build Status](https://travis-ci.org/primeira-iza/se_hello_printer_app.svg?branch=master)](https://travis-ci.org/primeira-iza/se_hello_printer_app)
 
-# Dodanie Badge z StatusCake
+## Dodanie Badge z StatusCake
 
-[![Build Status](https://app.statuscake.com/button/index.php?Track=5961429&Days=1&Design=2)]
+![StatusCake](https://app.statuscake.com/button/index.php?Track=5961429&Days=1&Design=2)
