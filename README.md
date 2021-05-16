@@ -72,6 +72,16 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   # miejsce na twoje notatki
   ```
 
+- Deployment do Heroku z TravisCI
+  ```
+  # miejsce na twoje notatki
+  ```
+
+- Dodanie monitoringu Statuscake
+  ```
+  # miejsce na twoje notatki
+  ```
+
 # Pomocnicze
 
 ## Ubuntu
@@ -99,9 +109,6 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   $ yum install -y docker-ce
   $ systemctl start docker
   ```
-## Deployment do Heroku z TravisCI
-
-## Dodanie monitoringu Statuscake
 
 ## Dodanie Badge z TraviCI
 
